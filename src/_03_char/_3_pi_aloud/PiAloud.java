@@ -9,13 +9,19 @@ public class PiAloud {
 	 * If you cannot play sound on this computer, set canPlaySounds to false.
 	 * If you are not sure, ask your teacher 
 	 * *****************/
-	boolean canPlaySounds = true;
+	boolean canPlaySounds = false;
 	
 	
 	// 1. Make a main method and make sure your program can run
-
+	public static void main(String[] args) {
+		
 	// 2. Make a String variable to hold 20 digits of Pi. You could use http://www.piday.org/million/ to get this.
-
+	String pie = "3.141592653589793238";
+	
+	for (int i = 0; i < 20; i++) {
+		System.out.println(pie.charAt(i));
+	}
+	
 	// 3. Print out 3 digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
 	// Check the console shows 3.1
 
@@ -32,7 +38,7 @@ public class PiAloud {
 	// *7. Compare the users' char to the next digit of Pi
 	// *8. If they are correct, print out "correct". If they are not, print "incorrect" 
 	
-	
+	}
 	
 	/********************  Use these methods. DON'T CHANGE THE CODE BELOW  ******************/
 
